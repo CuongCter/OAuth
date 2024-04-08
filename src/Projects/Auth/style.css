@@ -1,0 +1,31 @@
+.loginpage {
+    width: 100%;
+    height: 100%;
+    
+}
+.loginpage > div{
+    display: flex;
+}
+
+.loginpage>div>div {
+    border: 6px solid transparent;
+    margin: 15px 30px;
+    height: 70px;
+    width: 180px;
+    cursor: pointer;
+text-align: center;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2),
+        -10px -10px 20px rgba(88, 173, 222, 0.7);
+}
+
+.loginpage>div>div>div {
+    width: 100%;
+    height: 100%;
+    font-size: 18px;
+}
+
+.loginpage>div>div>div:active {
+    font-size: 16px;
+    box-shadow: inset 10px 10px 20px rgba(0, 0, 0, 0.2),
+        inset -10px -10px 20px rgba(131, 161, 231, 0.7);
+}
